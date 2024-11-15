@@ -10,5 +10,10 @@ Algoritmo OperadoresLogicos
 	Imprimir 'Expresion evaluar (Y): ', a, ' Y ', b
 	Imprimir 'Resultado Operador Y (AND): ', c
 	
+	// Operador Logico O
+	// Regresa verdadero si cualquier operando es verdadero
+	c = a O b 
+	Imprimir 'Expresion evaluar (O): ', a, ' O ', b
+	Imprimir 'Resultado Operador O (Or): ', c
 	
 FinAlgoritmo
