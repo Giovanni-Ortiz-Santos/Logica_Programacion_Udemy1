@@ -5,6 +5,10 @@ Algoritmo SiNoAlgoritmo
 	Si mi_numero > 0 Entonces 
 		Imprimir 'Valor positivo: ', mi_numero
 	SiNo
-		Imprimir 'Valor 0 o negativo: ', mi_numero
+		Si mi_numero < 0 Entonces
+			Imprimir 'Valor negativo: ', mi_numero
+		SiNo
+			Imprimir 'Valor es Cero: ', mi_numero
+		FinSi
 	FinSi
 FinAlgoritmo
