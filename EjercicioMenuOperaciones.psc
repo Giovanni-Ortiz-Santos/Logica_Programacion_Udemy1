@@ -26,6 +26,8 @@ Algoritmo EjercicioMenuOperaciones
 		3:	Imprimir "Multiplicacion: ", multiplicacion
 		4:	Imprimir "Divicion: ", division
 		5:	Imprimir "Hasta pronto!"
+		De Otro Modo:
+			Imprimir "Valor Erroneo: ", opcion_ingresada
 	FinSegun
 	
 FinAlgoritmo
